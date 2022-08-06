@@ -17,7 +17,7 @@ spec:
         image: moreillon/mqtt-logger-front:341e90be
         env:
         - name: VUE_APP_MQTT_LOGGER_API_URL
-          value: http://172.16.98.151:31882
+          value: http://192.168.1.2:31882
         ports:
         - containerPort: 80
 
